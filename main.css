@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+*{
+    margin: 0px;
+    padding: 5px 10px 0px 30px;
+    box-sizing: border-box;
+    font-family: 'Special Elite', cursive;
+
+}
+
+h1{
+    display: flex;
+    color: red;
+    font-size: 75px;
+    padding: 20px 10px 0px 300px ;
+
+}
+
+h2{
+    display: flex;
+    color: red;
+    padding: 20px 10px 0px 300px;
+}
+
+.nav-list{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    background-image: url(mainmanagers.png);
+    background-repeat: no-repeat;
+    line-height: 50px;
+    align-items:flex-end;
+    justify-content: flex-end;
+    border: 4px solid red;
+    
+}
+
+
+.nav-item {
+    list-style: none;
+    
+   
+}
+
+.nav-item a{
+    color: white;
+    text-decoration:none;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 0px 0px;
+
+}
+
+.nav-item a:hover{
+    color: red;
+
+}
+
+.column{
+    display: flex;
+    float: left;
+    width: 22%;
+    margin-left: 30px;
+    padding: 10%;}
+
+#Info-About{
+    font-size: 30px;
+    color: red;
+}
+
+.Intro{
+    display: flex;
+    padding: 5% 20% 10% 20%;
+    background-color: rgb(14, 13, 13);
+    opacity: 70%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#Info-Styles{
+    display: flex;
+    font-size: 20px;
+    color: red;
+}
+
+.dutch{
+    flex-wrap: wrap;
+    float: left;
+    width: 3%;
+    margin-left: 30px;
+    padding: 10%;
+    margin-top: 2;
+}
+
+
+.total{
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: red;
+    background-color: rgb(14, 13, 13);
+    padding: 0%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+.dutch-info{
+    flex-wrap: wrap;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    margin-top: 40%;
+    background-color: rgb(14, 13, 13);
+    opacity: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.italian{
+    color:red ;
+    font-size: 30px;
+    background-color: rgb(14, 13, 13);
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+
+
+.italian-foto{
+    flex-wrap: wrap;
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    padding: 10%;
+}
+
+.italian-info{
+    flex-wrap: wrap;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    margin-top: 40%;
+    background-color: rgb(14, 13, 13);
+    opacity: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+
+.spain{
+    color:red ;
+    font-size: 30px;
+    background-color: rgb(14, 13, 13);
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+.spain-foto{
+    flex-wrap: wrap;
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    padding: 10%;
+    opacity: 100%;
+}
+
+.spain-info{
+    flex-wrap: wrap;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    margin-top: 40%;
+    background-color: rgb(14, 13, 13);
+    opacity: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.germany{
+    color:red ;
+    font-size: 30px;
+    background-color: rgb(14, 13, 13);
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+.german-foto{
+    flex-wrap: wrap;
+    float: left;
+    width: 2%;
+    margin-left: 33px;
+    padding: 10%;
+}
+
+.german-info{
+    flex-wrap: wrap;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    margin-top: 40%;
+    background-color: rgb(14, 13, 13);
+    opacity: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.england{
+    color:red ;
+    font-size: 30px;
+    background-color: rgb(14, 13, 13);
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+.fergie-foto{
+    flex-wrap: wrap;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 5%;
+}
+
+.england-info{
+    flex-wrap: wrap;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    background-color: rgb(14, 13, 13);
+    opacity: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.zonal{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 20%;
+}
+
+.zonal-info{
+    color:red ;
+    font-size: 20px;
+    background-color: rgb(14, 13, 13);
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+.invert{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 5%;
+}
+
+.invert-info{
+    color:red ;
+    font-size: 20px;
+    background-color: rgb(14, 13, 13);
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+.totalfootball{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 5%;
+}
+
+.total-info{
+    color:red ;
+    font-size: 20px;
+    background-color: rgb(14, 13, 13);
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+.dasreboot{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 5%;
+}
+
+.das-info{
+    color:red ;
+    font-size: 20px;
+    background-color: rgb(14, 13, 13);
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+
+body {
+    background-image: url(background_stadium.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+
